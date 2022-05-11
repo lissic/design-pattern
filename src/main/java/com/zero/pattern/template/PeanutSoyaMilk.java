@@ -7,7 +7,7 @@ package main.java.com.zero.pattern.template;
  */
 public class PeanutSoyaMilk extends SoyaMilk{
     @Override
-    void addCondiments() {
+    protected void addCondiments() {
         System.out.println("加入花生");
     }
 }

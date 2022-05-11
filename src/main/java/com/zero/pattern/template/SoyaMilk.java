@@ -18,7 +18,7 @@ public abstract class SoyaMilk {
     }
 
     // 添加不同的配料，抽象方法，让子类去实现
-    abstract void addCondiments();
+    protected abstract void addCondiments();
 
     private void soak() {
         System.out.println("黄豆和配料开始浸泡");

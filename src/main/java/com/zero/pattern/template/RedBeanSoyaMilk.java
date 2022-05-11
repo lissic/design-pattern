@@ -7,7 +7,7 @@ package main.java.com.zero.pattern.template;
  */
 public class RedBeanSoyaMilk extends SoyaMilk{
     @Override
-    void addCondiments() {
+    protected void addCondiments() {
         System.out.println("添加红豆");
     }
 }
